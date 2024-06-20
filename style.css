@@ -1,8 +1,8 @@
 /* General body styling */
 body {
     font-family: 'Oswald', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: black;
+    color: white;
     line-height: 1.6;
     padding: 20px;
 }
@@ -10,12 +10,12 @@ body {
 /* Title section styling */
 .title h1 {
     text-align: center;
-    color: #333;
+    color: white;
 }
 
 /* Questions section styling */
 .questions {
-    background-color: #fff;
+    background-color: black;
     margin: 20px;
     padding: 20px;
     border-radius: 8px;
@@ -23,7 +23,7 @@ body {
 }
 
 .questions h2 {
-    color: #666;
+    color: white;
 }
 
 .questions img {
@@ -47,6 +47,9 @@ button{
     padding: 10px;
     list-style: none;
     border: 1px grey solid;
+    width: 500px;
+    height: 250px;
+    font-size: 40px;
 }
 button:hover{
     transition: 1s;
